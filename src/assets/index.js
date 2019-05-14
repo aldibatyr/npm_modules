@@ -1,4 +1,8 @@
-/* global shoppingList, store, api */
+
+import shoppingList from './shopping-list';
+import store from './store';
+import api from './api';
+import './index.css';
 
 $(document).ready(function() {
   shoppingList.bindEventListeners();
